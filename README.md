@@ -8,6 +8,11 @@ A simple Telegram bot running on **Cloudflare Workers** that trims audio using t
 * A Cloudflare account with Workers
 * A CloudConvert account and API key ([CloudConvert](https://cloudconvert.com/))
 
+## Limitation
+
+CloudConvert gives 10 free coversation credits per day. If you need to trim audio more than 10 times per day,
+you might want to buy their subscription.
+
 ## Installation
 
 ### 1. Create a Telegram bot
@@ -59,8 +64,6 @@ Get your chat id by sending a message to https://t.me/chatIDrobot. You'll receiv
 2. Go to **Dashboard** > **Authorization** > **API Keys**
 3. Create an API key.
 4. Copy the key and keep it secret — you will need it as `CLOUDCONVERT_API_KEY`.
-
-> It's free for 10 audio trimming per day, for more, you gotta pay for the lifetime subscription.
 
 ### 6. Add the required secrets
 
