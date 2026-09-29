@@ -1,6 +1,6 @@
 # F.A.T.B: Free Audio Trimming Bot
 
-**DISCLAIMER**: This project is AI-made.
+> **Disclaimer:** This project is AI-generated.
 
 A simple Telegram bot running on **Cloudflare Workers** that trims audio using the **CloudConvert API**. Anything about this setup is free for the average person.
 
